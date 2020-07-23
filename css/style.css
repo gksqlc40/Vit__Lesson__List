@@ -1,6 +1,6 @@
 @import "reset.css";
 @import "index.css";
-
+@import "student.css";
 body {
   font-family: "Merriweather", serif;
 }

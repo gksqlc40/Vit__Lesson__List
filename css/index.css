@@ -1,6 +1,6 @@
 .index__body {
-  margin-top: 50px;
-  margin-bottom: 200px;
+  padding-top: 20px;
+  margin-bottom: 150px;
 }
 
 .main__title {
@@ -8,14 +8,17 @@
   font-weight: 400;
   font-size: 30px;
   margin-top: 20px;
-  /*animation: titleMove 3s ease-in-out;*/
+  animation: titleMove 1s ease-in-out;
 }
 
 .main__article {
+  animation: articleMove 2s ease-in-out;
+}
+
+.enter__user {
   margin-top: 60px;
   text-align: center;
   font-size: 20px;
-  /*  animation: articleMove 6s ease-in-out;*/
 }
 
 .user__box {
@@ -26,8 +29,6 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
-
-  /*  animation: articleMove 6s ease-in-out;*/
 }
 .user__box input {
   width: 300px;
@@ -39,11 +40,10 @@
 @keyframes titleMove {
   from {
     opacity: 0;
-    margin-top: 400px;
+    padding-top: 400px;
   }
   to {
     opacity: 1;
-    margin-top: 20px;
   }
 }
 
@@ -72,6 +72,7 @@
 }
 
 #vit__music .music__article {
+  text-align: center;
   margin-bottom: 20px;
   font-size: 18px;
 }

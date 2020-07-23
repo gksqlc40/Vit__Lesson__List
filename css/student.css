@@ -1,0 +1,68 @@
+.student__body {
+  margin: 0 3px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+header .student__title {
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+}
+
+header .lesson__date {
+  text-align: right;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* Under codes is for Main */
+
+.student__article {
+  margin-top: 50px;
+}
+
+.one__week {
+  display: flex;
+}
+
+.week {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #b0ba8d;
+  font-size: 20px;
+  padding: 10px;
+  width: 20%;
+  height: 160px;
+  border-right: solid white 3px;
+  border-bottom: solid white 5px;
+}
+
+.lesson__record {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 60%;
+  background-color: #d0d3aa;
+  border-right: solid white 3px;
+  border-bottom: solid white 5px;
+}
+
+.lesson__HW {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 20%;
+  background-color: #f1e9d8;
+  border-bottom: solid white 5px;
+}
+
+.prev__lesson {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 20px;
+}
