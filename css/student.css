@@ -61,6 +61,11 @@ header .lesson__date {
   border-bottom: solid white 5px;
 }
 
+.lesson__record,
+.lesson__HW {
+  line-height: 18px;
+}
+
 .prev__lesson {
   text-align: center;
   margin-top: 40px;
